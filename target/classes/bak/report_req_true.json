@@ -1,0 +1,339 @@
+{
+  "report": {
+    "statistics": {
+      "num_vertices": 17,
+      "num_edges": 30,
+      "num_vertices_changed": 7,
+      "num_edges_changed": -5,
+      "num_vertices_changed_add": 999,
+      "num_edges_changed_add": 999,
+      "num_vertices_changed_minus": 999,
+      "num_edges_changed_minus": 999,
+      "cust_name": "33",
+      "cino": "missing",
+      "group_id": "missing",
+      "group_name": "missing",
+      "start_date": "20180301",
+      "end_date": "20180307",
+      "vertices_changes_by_label": [
+        {
+          "label": "1",
+          "count": 16,
+          "count_changed": 7,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "2",
+          "count": 1,
+          "count_changed": -7,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        }
+      ],
+      "edge_changes_by_label": [
+        {
+          "label": "GROUP",
+          "count": 0,
+          "count_changed": 5,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "INVE",
+          "count": 12,
+          "count_changed": -5,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "TX",
+          "count": 3,
+          "count_changed": 4,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "TRADE",
+          "count": 2,
+          "count_changed": -4,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "SAME_CARD_HOLDER",
+          "count": 0,
+          "count_changed": 3,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "THIRD_PARTY_GUAR",
+          "count": 1,
+          "count_changed": -3,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "GUAR",
+          "count": 2,
+          "count_changed": 2,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "MANAGER",
+          "count": 4,
+          "count_changed": -1,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        },
+        {
+          "label": "OTHER",
+          "count": 6,
+          "count_changed": 0,
+          "count_changed_add": 999,
+          "count_changed_minus": 999
+        }
+      ]
+    },
+    "data": {
+      "changed_edges": [
+        {
+          "seq_num": "1",
+          "date_changed": "20180307",
+          "source_id": "n3",
+          "target_id": "n33",
+          "source_status": "新增",
+          "target_status": "不变",
+          "source_name": "同兴万点传媒有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "其他",
+          "edge_status": "支持",
+          "edge_label": "SPOUSE"
+        },
+        {
+          "seq_num": "2",
+          "date_changed": "20180307",
+          "source_id": "n5",
+          "target_id": "n33",
+          "source_status": "新增",
+          "target_status": "不变",
+          "source_name": "佳禾传媒有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "其他",
+          "edge_status": "支持",
+          "edge_label": "BACKUP1"
+        },
+        {
+          "seq_num": "3",
+          "date_changed": "20180307",
+          "source_id": "n33",
+          "target_id": "n34",
+          "source_status": "不变",
+          "target_status": "新增",
+          "source_name": "天益传媒有限公司",
+          "target_name": "开发区世创网络有限公司",
+          "main_rela": "其他",
+          "edge_status": "支持",
+          "edge_label": "BACKUP1"
+        },
+        {
+          "seq_num": "4",
+          "date_changed": "20180307",
+          "source_id": "n28",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "保证",
+          "edge_status": "支持",
+          "edge_label": "JOINT_GUAR"
+        },
+        {
+          "seq_num": "5",
+          "date_changed": "20180307",
+          "source_id": "n33",
+          "target_id": "n3",
+          "source_status": "不变",
+          "target_status": "新增",
+          "source_name": "天益传媒有限公司",
+          "target_name": "同兴万点传媒有限公司",
+          "main_rela": "保证",
+          "edge_status": "支持",
+          "edge_label": "JOINT_GUAR"
+        },
+        {
+          "seq_num": "6",
+          "date_changed": "20180307",
+          "source_id": "n25",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "九方传媒有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "资金",
+          "edge_status": "支持",
+          "edge_label": "INV_TOPNONCONTROL"
+        },
+        {
+          "seq_num": "7",
+          "date_changed": "20180307",
+          "source_id": "n28",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "资金",
+          "edge_status": "支持",
+          "edge_label": "INV_CONTROL"
+        },
+        {
+          "seq_num": "8",
+          "date_changed": "20180307",
+          "source_id": "n46",
+          "target_id": "n34",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "黄石金承科技有限公司",
+          "target_name": "开发区世创网络有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "9",
+          "date_changed": "20180307",
+          "source_id": "n34",
+          "target_id": "n41",
+          "source_status": "新增",
+          "target_status": "不变",
+          "source_name": "开发区世创网络有限公司",
+          "target_name": "群英科技有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "10",
+          "date_changed": "20180307",
+          "source_id": "n41",
+          "target_id": "n46",
+          "source_status": "不变",
+          "target_status": "新增",
+          "source_name": "群英科技有限公司",
+          "target_name": "黄石金承科技有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "11",
+          "date_changed": "20180307",
+          "source_id": "n25",
+          "target_id": "n47",
+          "source_status": "不变",
+          "target_status": "新增",
+          "source_name": "九方传媒有限公司",
+          "target_name": "诺依曼软件传媒有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "12",
+          "date_changed": "20180307",
+          "source_id": "n47",
+          "target_id": "n14",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "诺依曼软件传媒有限公司",
+          "target_name": "和泰科技有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "13",
+          "date_changed": "20180307",
+          "source_id": "n14",
+          "target_id": "n31",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "和泰科技有限公司",
+          "target_name": "开发区世创网络有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "14",
+          "date_changed": "20180307",
+          "source_id": "n31",
+          "target_id": "n25",
+          "source_status": "新增",
+          "target_status": "不变",
+          "source_name": "开发区世创网络有限公司",
+          "target_name": "九方传媒有限公司",
+          "main_rela": "股权",
+          "edge_status": "支持",
+          "edge_label": "TX"
+        },
+        {
+          "seq_num": "15",
+          "date_changed": "20180307",
+          "source_id": "n18",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "时空盒数字网络有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "人员",
+          "edge_status": "支持",
+          "edge_label": "CORP_TWO_LEGAL_PERSON"
+        },
+        {
+          "seq_num": "16",
+          "date_changed": "20180307",
+          "source_id": "n9",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "联通时科信息有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "人员",
+          "edge_status": "支持",
+          "edge_label": "CORP_TWO_LEGAL_PERSON"
+        },
+        {
+          "seq_num": "17",
+          "date_changed": "20180307",
+          "source_id": "n4",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "第三方抵押",
+          "edge_status": "支持",
+          "edge_label": "CORP_THIRD_PARTY"
+        },
+        {
+          "seq_num": "18",
+          "date_changed": "20180307",
+          "source_id": "n19",
+          "target_id": "n33",
+          "source_status": "不变",
+          "target_status": "不变",
+          "source_name": "南康信息有限公司",
+          "target_name": "天益传媒有限公司",
+          "main_rela": "贸易",
+          "edge_status": "支持",
+          "edge_label": "LOC"
+        }
+      ]
+    }
+  }
+}

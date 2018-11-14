@@ -1,0 +1,210 @@
+{
+  "report": {
+    "statistics": {
+      "num_vertices": 20,
+      "num_edges": 19,
+      "num_vertices_changed": -3,
+      "num_edges_changed": -3,
+      "data_date": "2018年04月01日",
+      "cino": "vertex_id",
+      "cust_name": "李大家的",
+      "group_id": "所属授信集团编号",
+      "group_name": "所属授信集团名称",
+      "start_date": "2017年02月22日",
+      "end_date": "2018年04月01日",
+      "vertices_changes_by_label": [
+        {
+          "label": "1",
+          "count": 5,
+          "count_changed": -5
+        },
+        {
+          "label": "2",
+          "count": 5,
+          "count_changed": -5
+        }
+      ],
+      "edge_changes_by_label": [
+        {
+          "label": "GROUP",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "INVE",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "TX",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "TRADE",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "SAME_CARD_HOLDER",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "THIRD_PARTY_GUAR",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "GUAR",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "MANAGER",
+          "count": 1,
+          "count_changed": -5
+        },
+        {
+          "label": "OTHER",
+          "count": -2,
+          "count_changed": -5
+        }
+      ]
+    },
+    "data": {
+      "changed_edges": [
+        {
+          "seq_num": "1",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n111",
+          "source_status": "新增",
+          "target_status": "减少",
+          "source_name": "用户1",
+          "target_name": "用户2",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "2",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n112",
+          "source_status": "不变",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户3",
+          "edge_status": "减少",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "3",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n113",
+          "source_status": "不变",
+          "target_status": "减少",
+          "source_name": "用户1",
+          "target_name": "用户4",
+          "edge_status": "减少",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "4",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n114",
+          "source_status": "减少",
+          "target_status": "减少",
+          "source_name": "用户1",
+          "target_name": "用户5",
+          "edge_status": "减少",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "5",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n115",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户6",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "6",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n116",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户7",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "7",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n117",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户8",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "8",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n118",
+          "source_status": "新增",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户9",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "9",
+          "date_changed": "20180401",
+          "source_id": "n110",
+          "target_id": "n119",
+          "source_status": "减少",
+          "target_status": "新增",
+          "source_name": "用户1",
+          "target_name": "用户10",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        },
+        {
+          "seq_num": "10",
+          "date_changed": "20180401",
+          "source_id": "n0",
+          "target_id": "n110",
+          "source_status": "不变",
+          "target_status": "新增",
+          "target_name": "用户1",
+          "source_name": "李大傻子",
+          "edge_status": "新增",
+          "main_rela": "授信关系",
+          "edge_label": "银票业务"
+        }
+      ]
+    }
+  }
+}

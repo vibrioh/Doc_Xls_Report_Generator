@@ -13,16 +13,11 @@ public class StatisticsContent {
     private String end_date;
     private String num_vertices;
     private String num_edges;
-    private int num_vertices_changed;
-    private int num_edges_changed;
+    private String num_vertices_changed;
+    private String num_edges_changed;
 
     private List<LabelCount> vertices_changes_by_label;
     private List<LabelCount> edge_changes_by_label;
-
-    private int num_vertices_changed_add;
-    private int num_edges_changed_add;
-    private int num_vertices_changed_minus;
-    private int num_edges_changed_minus;
 
     public String getData_date() {
         return data_date;
@@ -96,19 +91,19 @@ public class StatisticsContent {
         this.num_edges = num_edges;
     }
 
-    public int getNum_vertices_changed() {
+    public String getNum_vertices_changed() {
         return num_vertices_changed;
     }
 
-    public void setNum_vertices_changed(int num_vertices_changed) {
+    public void setNum_vertices_changed(String num_vertices_changed) {
         this.num_vertices_changed = num_vertices_changed;
     }
 
-    public int getNum_edges_changed() {
+    public String getNum_edges_changed() {
         return num_edges_changed;
     }
 
-    public void setNum_edges_changed(int num_edges_changed) {
+    public void setNum_edges_changed(String num_edges_changed) {
         this.num_edges_changed = num_edges_changed;
     }
 
@@ -126,37 +121,5 @@ public class StatisticsContent {
 
     public void setEdge_changes_by_label(List<LabelCount> edge_changes_by_label) {
         this.edge_changes_by_label = edge_changes_by_label;
-    }
-
-    public int getNum_vertices_changed_add() {
-        return num_vertices_changed_add;
-    }
-
-    public void setNum_vertices_changed_add(int num_vertices_changed_add) {
-        this.num_vertices_changed_add = num_vertices_changed_add;
-    }
-
-    public int getNum_edges_changed_add() {
-        return num_edges_changed_add;
-    }
-
-    public void setNum_edges_changed_add(int num_edges_changed_add) {
-        this.num_edges_changed_add = num_edges_changed_add;
-    }
-
-    public int getNum_vertices_changed_minus() {
-        return num_vertices_changed_minus;
-    }
-
-    public void setNum_vertices_changed_minus(int num_vertices_changed_minus) {
-        this.num_vertices_changed_minus = num_vertices_changed_minus;
-    }
-
-    public int getNum_edges_changed_minus() {
-        return num_edges_changed_minus;
-    }
-
-    public void setNum_edges_changed_minus(int num_edges_changed_minus) {
-        this.num_edges_changed_minus = num_edges_changed_minus;
     }
 }

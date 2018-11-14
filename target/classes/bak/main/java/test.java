@@ -19,11 +19,7 @@ public class test {
                 "      \"num_vertices\": 17,\n" +
                 "      \"num_edges\": 30,\n" +
                 "      \"num_vertices_changed\": 7,\n" +
-                "      \"num_edges_changed\": -5,\n" +
-                "      \"num_vertices_changed_add\": 999,\n" +
-                "      \"num_edges_changed_add\": 999,\n" +
-                "      \"num_vertices_changed_minus\": 999,\n" +
-                "      \"num_edges_changed_minus\": 999,\n" +
+                "      \"num_edges_changed\": 0,\n" +
                 "      \"cust_name\": \"33\",\n" +
                 "      \"cino\": \"missing\",\n" +
                 "      \"group_id\": \"missing\",\n" +
@@ -34,81 +30,59 @@ public class test {
                 "        {\n" +
                 "          \"label\": \"1\",\n" +
                 "          \"count\": 16,\n" +
-                "          \"count_changed\": 7,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 7\n" +
                 "        },\n" +
                 "        {\n" +
-                "          \"label\": \"2\",\n" +
+                "          \"label\": \"0\",\n" +
                 "          \"count\": 1,\n" +
-                "          \"count_changed\": -7,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        }\n" +
                 "      ],\n" +
                 "      \"edge_changes_by_label\": [\n" +
                 "        {\n" +
                 "          \"label\": \"GROUP\",\n" +
                 "          \"count\": 0,\n" +
-                "          \"count_changed\": 5,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"INVE\",\n" +
                 "          \"count\": 12,\n" +
-                "          \"count_changed\": -5,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"TX\",\n" +
                 "          \"count\": 3,\n" +
-                "          \"count_changed\": 4,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"TRADE\",\n" +
                 "          \"count\": 2,\n" +
-                "          \"count_changed\": -4,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"SAME_CARD_HOLDER\",\n" +
                 "          \"count\": 0,\n" +
-                "          \"count_changed\": 3,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"THIRD_PARTY_GUAR\",\n" +
                 "          \"count\": 1,\n" +
-                "          \"count_changed\": -3,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"GUAR\",\n" +
                 "          \"count\": 2,\n" +
-                "          \"count_changed\": 2,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"MANAGER\",\n" +
                 "          \"count\": 4,\n" +
-                "          \"count_changed\": -1,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "          \"label\": \"OTHER\",\n" +
                 "          \"count\": 6,\n" +
-                "          \"count_changed\": 0,\n" +
-                "          \"count_changed_add\": 999,\n" +
-                "          \"count_changed_minus\": 999\n" +
+                "          \"count_changed\": 0\n" +
                 "        }\n" +
                 "      ]\n" +
                 "    },\n" +
@@ -124,7 +98,6 @@ public class test {
                 "          \"source_name\": \"同兴万点传媒有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"其他\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"SPOUSE\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -137,7 +110,6 @@ public class test {
                 "          \"source_name\": \"佳禾传媒有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"其他\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"BACKUP1\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -150,7 +122,6 @@ public class test {
                 "          \"source_name\": \"天益传媒有限公司\",\n" +
                 "          \"target_name\": \"开发区世创网络有限公司\",\n" +
                 "          \"main_rela\": \"其他\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"BACKUP1\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -163,7 +134,6 @@ public class test {
                 "          \"source_name\": \"\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"保证\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"JOINT_GUAR\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -176,7 +146,6 @@ public class test {
                 "          \"source_name\": \"天益传媒有限公司\",\n" +
                 "          \"target_name\": \"同兴万点传媒有限公司\",\n" +
                 "          \"main_rela\": \"保证\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"JOINT_GUAR\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -189,7 +158,6 @@ public class test {
                 "          \"source_name\": \"九方传媒有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"资金\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"INV_TOPNONCONTROL\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -202,7 +170,6 @@ public class test {
                 "          \"source_name\": \"\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"资金\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"INV_CONTROL\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -215,7 +182,6 @@ public class test {
                 "          \"source_name\": \"黄石金承科技有限公司\",\n" +
                 "          \"target_name\": \"开发区世创网络有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -228,7 +194,6 @@ public class test {
                 "          \"source_name\": \"开发区世创网络有限公司\",\n" +
                 "          \"target_name\": \"群英科技有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -241,7 +206,6 @@ public class test {
                 "          \"source_name\": \"群英科技有限公司\",\n" +
                 "          \"target_name\": \"黄石金承科技有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -254,7 +218,6 @@ public class test {
                 "          \"source_name\": \"九方传媒有限公司\",\n" +
                 "          \"target_name\": \"诺依曼软件传媒有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -267,7 +230,6 @@ public class test {
                 "          \"source_name\": \"诺依曼软件传媒有限公司\",\n" +
                 "          \"target_name\": \"和泰科技有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -280,7 +242,6 @@ public class test {
                 "          \"source_name\": \"和泰科技有限公司\",\n" +
                 "          \"target_name\": \"开发区世创网络有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -293,7 +254,6 @@ public class test {
                 "          \"source_name\": \"开发区世创网络有限公司\",\n" +
                 "          \"target_name\": \"九方传媒有限公司\",\n" +
                 "          \"main_rela\": \"股权\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"TX\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -306,7 +266,6 @@ public class test {
                 "          \"source_name\": \"时空盒数字网络有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"人员\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"CORP_TWO_LEGAL_PERSON\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -319,7 +278,6 @@ public class test {
                 "          \"source_name\": \"联通时科信息有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"人员\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"CORP_TWO_LEGAL_PERSON\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -332,7 +290,6 @@ public class test {
                 "          \"source_name\": \"\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"第三方抵押\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"CORP_THIRD_PARTY\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -345,7 +302,6 @@ public class test {
                 "          \"source_name\": \"南康信息有限公司\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"贸易\",\n" +
-                "          \"edge_status\": \"支持\",\n" +
                 "          \"edge_label\": \"LOC\"\n" +
                 "        }\n" +
                 "      ]\n" +

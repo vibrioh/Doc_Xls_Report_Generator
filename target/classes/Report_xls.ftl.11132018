@@ -9,7 +9,7 @@
   <Author>Jun Hu</Author>
   <LastAuthor>Jun Hu</LastAuthor>
   <Created>2018-05-28T10:25:44Z</Created>
-  <LastSaved>2018-05-28T10:26:34Z</LastSaved>
+  <LastSaved>2018-06-06T14:40:09Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -18,8 +18,8 @@
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>17040</WindowHeight>
   <WindowWidth>27600</WindowWidth>
-  <WindowTopX>3420</WindowTopX>
-  <WindowTopY>3460</WindowTopY>
+  <WindowTopX>1200</WindowTopX>
+  <WindowTopY>960</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -39,10 +39,16 @@
   <Style ss:ID="s63">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
   </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="-webkit-standard" ss:Size="12" ss:Color="#000000"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="2" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="3" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">提示用户:如果探查日期范围无关系变化，则excel内容为空&#160;</Data></Cell>
+   </Row>
    <Row>
     <Cell ss:StyleID="s62"><Data ss:Type="String">报告日期</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">核心客户号</Data></Cell>
@@ -59,7 +65,7 @@
     <Cell ss:StyleID="s62"><Data ss:Type="String">关系类型</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">关系变化标志</Data></Cell>
    </Row>
-    <#list tables as tbl>
+<#list tables as tbl>
    <Row>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${dataDate}</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${cino}</Data></Cell>
@@ -74,9 +80,9 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.target_status}</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.main_rela}</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.edge_label}</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.edge_status}</Data></Cell>
    </Row>
-    </#list>
+</#list>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -88,7 +94,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <RangeSelection>R1C1:R2C14</RangeSelection>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>13</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

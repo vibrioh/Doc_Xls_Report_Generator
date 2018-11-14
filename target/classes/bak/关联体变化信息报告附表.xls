@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jun Hu</Author>
+  <LastAuthor>Jun Hu</LastAuthor>
+  <Created>2018-05-28T10:25:44Z</Created>
+  <LastSaved>2018-06-06T14:40:09Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17040</WindowHeight>
+  <WindowWidth>27600</WindowWidth>
+  <WindowTopX>1200</WindowTopX>
+  <WindowTopY>960</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="-webkit-standard" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">提示用户:如果探查日期范围无关系变化，则excel内容为空&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">报告日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">核心客户号</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">核心客户名称</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">发生变化时间</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">客户代码</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">客户名称</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">客户变化标志</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关联客户代码</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关联客户名称</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关联客户变化标志</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关联程度</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关系类型</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">关系变化标志</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">同兴万点传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">其他</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SPOUSE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">佳禾传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">其他</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BACKUP1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n34</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开发区世创网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">其他</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BACKUP1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n28</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">保证</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">JOINT_GUAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">同兴万点传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">保证</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">JOINT_GUAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">九方传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">资金</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INV_TOPNONCONTROL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n28</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">资金</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INV_CONTROL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n46</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">黄石金承科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n34</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开发区世创网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n34</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开发区世创网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n41</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">群英科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n41</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">群英科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n46</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">黄石金承科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">九方传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n47</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">诺依曼软件传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n47</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">诺依曼软件传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">和泰科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">和泰科技有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n31</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开发区世创网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n31</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开发区世创网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">新增</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">九方传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">股权</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n18</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">时空盒数字网络有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">人员</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CORP_TWO_LEGAL_PERSON</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">联通时科信息有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">人员</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CORP_TWO_LEGAL_PERSON</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">第三方抵押</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CORP_THIRD_PARTY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">使用系统中的日期</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">missing</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">33 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20180307</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n19</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">南康信息有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">n33</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">天益传媒有限公司</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">不变</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">贸易</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">支持</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>13</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
