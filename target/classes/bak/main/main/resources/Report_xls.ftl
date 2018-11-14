@@ -74,7 +74,7 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.target_status}</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.main_rela}</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.edge_label}</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">{tbl.edge_status}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${tbl.edge_status}</Data></Cell>
    </Row>
     </#list>
   </Table>
