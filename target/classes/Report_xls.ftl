@@ -59,19 +59,21 @@
     <Cell><Data ss:Type="String">关系类型</Data></Cell>
     <Cell><Data ss:Type="String">关系变化标志</Data></Cell>
    </Row>
+   <#list tables as tbl>
    <Row>
-    <Cell><Data ss:Type="String">AAA</Data></Cell>
-    <Cell><Data ss:Type="String">BBB</Data></Cell>
-    <Cell><Data ss:Type="String">CCC</Data></Cell>
-    <Cell><Data ss:Type="String">DDD</Data></Cell>
-    <Cell><Data ss:Type="String">EEE</Data></Cell>
-    <Cell><Data ss:Type="String">FFF</Data></Cell>
-    <Cell><Data ss:Type="String">GGG</Data></Cell>
-    <Cell><Data ss:Type="String">HHH</Data></Cell>
-    <Cell><Data ss:Type="String">III</Data></Cell>
-    <Cell><Data ss:Type="String">JJJ</Data></Cell>
-    <Cell><Data ss:Type="String">KKK</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.seq_num}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.date_changed}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.source_id}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.source_name}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.source_status}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.target_id}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.target_name}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.target_status}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.main_rela}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.edge_label}</Data></Cell>
+    <Cell><Data ss:Type="String">${tbl.edge_status}</Data></Cell>
    </Row>
+   </#list>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>

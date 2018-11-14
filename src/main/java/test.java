@@ -160,7 +160,7 @@ public class test {
                 "          \"target_id\": \"n33\",\n" +
                 "          \"source_status\": \"不变\",\n" +
                 "          \"target_status\": \"不变\",\n" +
-                "          \"source_name\": \"\",\n" +
+                "          \"source_name\": \"我是谁\",\n" +
                 "          \"target_name\": \"天益传媒有限公司\",\n" +
                 "          \"main_rela\": \"保证\",\n" +
                 "          \"edge_status\": \"支持\",\n" +
